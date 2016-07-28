@@ -2,5 +2,4 @@
 
 URL=`xclip -o -selection clipboard`
 
-#vlc $URL
-xplayer $URL
+vlc $URL
